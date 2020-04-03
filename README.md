@@ -42,3 +42,19 @@ optional arguments:
 
 #### Harris
 ![HoG](./Harris/harris_kandinsky.png)
+
+## Vector Quantization
+```bash
+python quant.py --help
+usage: quant.py [-h] [--path PATH] [--clusters CLUSTERS]
+
+Image Processing tool to produce Vector Quantization visuals
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --path PATH          Path to the image
+  --clusters CLUSTERS  Number of clusters
+```
+
+#### Chagall with 4 clusters
+![Chagall](./VecQuant/quant_4_chagall.png)
